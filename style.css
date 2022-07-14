@@ -1,0 +1,68 @@
+
+
+ body *{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 960px;
+    margin: 0 auto;   
+}
+
+header h1{
+    text-align: center;
+    color:#fff;
+    cursor: pointer;
+    background-color:rgb(215, 186, 191) ;
+}
+
+nav ul{
+    display: flex;
+    padding-left: 1px;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    background-color: rgb(152, 140, 140);
+    cursor: pointer;
+}
+ul li:hover{
+    background-color:rgb(235, 235, 215);
+
+}
+ ul li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-left: 1px solid #fff;
+    
+}
+
+.about, .skill{
+     border: 0.5px solid rgb(233, 227, 227) ;
+     margin: 30px auto;
+     background-color: rgb(244, 241, 238);
+     border-radius: 8px;
+     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about h2 {
+    text-align: center;
+}
+.about p{
+    padding: 15px;
+}
+
+.skill h2{
+    text-align:center;
+}
+
+.foot{
+    background-color: #333;
+    height: 150px;
+}
+.foot p{
+    text-align: center;
+    padding: 50px 30px;
+    color: #fff;
+
+}

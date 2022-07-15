@@ -1,82 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  
-
-      <link
+  <head>
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&family=Open+Sans&family=Poppins:ital,wght@0,200;1,200&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Ubuntu+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="intext.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&family=Open+Sans&family=Poppins:ital,wght@0,200;1,200&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Ubuntu+Mono:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="intext.css" />
+
+    <link  id="theme-style" rel="stylesheet" href=" ">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+  </head>
+  <body>
     <section class="s1">
-       <div class="main-container">
+      <div class="main-container">
         <div class="wrapper">
-             <h1>Hi I am Nurudeen Durowade</h1>
+          <h1>Hi I am Nurudeen Durowade</h1>
         </div>
         <div class="grid-wrap">
-            <div class="nav">
-                <div class="dot-wrapper">
-                     
-                        <div id="dot1" class="browser-dot"></div>
-                        <div id="dot2" class="browser-dot"></div>
-                        <div id="dot3" class="browser-dot"></div>
-                   
-                </div>
-                <div class="cont">
-                
-                     <ul id="navigation">
-                        <li><a href="#">Contact</a></li> 
-                        
-                         </ul>
-                    
-                </div>
-
+          <div class="nav">
+            <div class="dot-wrapper">
+              <div id="dot1" class="browser-dot"></div>
+              <div id="dot2" class="browser-dot"></div>
+              <div id="dot3" class="browser-dot"></div>
             </div>
-            <div class="left-column">
-                <img src="/images/nuru.jpg" alt="" id="nurup">
-                <h5 style="text-align:center; line-height: 0";>Personalized Themes</h5>
-                <div class="theme-options-wrapper">
-                    <div id="light-mode" class="theme-option"></div>
-                    <div id="blue-mode" class="theme-option"></div>
-                    <div id="green-mode" class="theme-option"></div>
-                    <div id="purple-mode" class="theme-option"></div>
-                </div>
-                <p id="settings-note">Themes settings will be saved for <br> your next visit</p>
+            <div class="cont">
+              <ul id="navigation">
+                <li><a href="#">Contact</a></li>
+              </ul>
             </div>
-            <div class="right-column">
-                Right-column
+          </div>
+          <div class="left-column">
+            <img src="/images/nuru.jpg" alt="" id="nurup" />
+            <h5 style="text-align: center; line-height: 0" ;>
+              Personalized Themes
+            </h5>
+            <div class="theme-options-wrapper">
+              <div data-mode="light" id="light-mode" class="theme-option"></div>
+              <div  data-mode="blue" id="blue-mode" class="theme-option"></div>
+              <div data-mode="green" id="green-mode" class="theme-option"></div>
+              <div data-mode="purple" id="purple-mode" class="theme-option"></div>
             </div>
+            <p id="settings-note">
+              Themes settings will be saved for <br />
+              your next visit
+            </p>
+          </div>
+          <div class="right-column">
+            <div id="preview-shadow">
+              <div id="preview">
+                <div class="corner" id="corner-tl"></div>
+                <div class="corner" id="corner-tr"></div>
+                <h3>What I do</h3>
+                <p>
+                  I am a frontend developer which specializes mainly on
+                  HTML,CSS, JavaScript and React
+                </p>
+                <div class="corner" id="corner-bl"></div>
+                <div class="corner" id="corner-br"></div>
+              </div>
+            </div>
+          </div>
         </div>
-
-       </div>
+      </div>
     </section>
     <section class="s2">
-       <div class="main-container">
-            About
-      
-       </div>
+      <div class="main-container">
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4>More about me</h4>
+            <p>I am also a gradute with a Mathematics major, University of Ilorin.</p>
+            <p>Highly passionate and driven, I am in search of a great team and projects that will interest me and further boost my intellect</p>
+            <hr>
+            <h4>AREA OF SPECIALIZATION</h4>
+            <p>frontend developer with a primary focus on React <a href="C-V2.docx" target="_blank">Download Resume</a></p>
+                   <div id="skills">
+            <ul>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <ul>
+                <li>Version Control (git)</li>
+                <li>DOM Manipulation</li>
+              
+            </ul>
+            
+          </div>
+          </div>
+   
+
+          <div class="social-link"> 
+            <img src="link.png" id="social-image" alt="">
+            <h3>Find me on LinkedIn</h3>
+<box-icon type='logo' name='linkedin-square'>
+    
+</box-icon>
+<a href="https://www.linkedin.com/in/nurudeen-durowade-4326a820a/"> LinkedIn: Nurudeen Durowade </a>
+          
+          
+        </div>
+      </div>
     </section>
     <section class="s1">
-       <div class="main-container">
-        Portfolio
-      
-       </div>
+      <div class="main-container">
+        
+     <h3 style="text-align:center;">My Projects </h3>
+        <div class="post-wrapper">
+            <div class="post">
+                <img  class="thumbnail" src="/images/b1.jpg" alt="">
+                <div class="post-preview">
+                    <h6 class="post-title">Post Title</h6>
+                    <p class="post-intro">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, asperiores.
+                      <a href="post.html">Read more</a>
+                    </p>
+                    </div>
+                </div>
+            <div class="post">
+                  <img class="thumbnail" src="/images/b1.jpg" alt="">
+                  <div class="post-preview">
+                      <h6 class="post-title">Post Title</h6>
+                      <p class="post-intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, asperiores.
+                        <a href="">Read more</a>
+                      </p>
+                  </div>
+                </div>
+            <div class="post">
+                  <img class="thumbnail"src="/images/b1.jpg" alt="">
+                  <div class="post-preview">
+                      <h6 class="post-title">Post Title</h6>
+                      <p class="post-intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, asperiores.
+                        <a href="">Read more</a>
+                      </p>
+                  </div>
+             </div>
+        </div>     
+            
+    </div>
     </section>
     <section class="s2">
-       <div class="main-container">
-        Contact
- 
-       </div>
+      <div class="main-container">
+      <h3 style="text-align: center;">Get In Touch</h3>
+         <form action="submit" id="contact-form">
+    
+            <label>Name</label>
+            <input type="text" name="name" class="input-field">
+            <label>Subject</label>
+            <input type="text" name="email" class="input-field">
+            <label>Email</label>
+            <input type="text" name="name" class="input-field">
+                 
+                  <label>Message</label>
+                  <textarea name="message" class="input-field" ></textarea>
+                   <input id="submit-btn" type="submit" value="Send" style="cursor: pointer;">
+         </form>
+
+
+      </div>
     </section>
-    <script src="https://kit.fontawesome.com/28fed89837.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/28fed89837.js"
+      crossorigin="anonymous"
+    ></script>
+<script src="script.js"></script>
+ <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script></body>
 </html>
